@@ -1,0 +1,17 @@
+html {
+  background-color: #0E141F;
+}
+
+.box-shadow {
+  box-shadow: 0 1.5rem 1.5rem -0.5rem #000;
+}
+
+.logo-nav {
+  height: 2.2rem;
+}
+
+.navbar__toolbar {
+  min-height: 4.4rem !important;
+  box-shadow: 0 1rem 5rem -0.5rem #000;
+  border-bottom: 1px solid #29303d;
+}
