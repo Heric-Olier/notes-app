@@ -1,5 +1,5 @@
 html {
-  background-color: #0E141F;
+  background-color: #0e141f;
 }
 
 .box-shadow {
@@ -7,11 +7,30 @@ html {
 }
 
 .logo-nav {
-  height: 2.2rem;
+  height: 1.8rem;
 }
 
-.navbar__toolbar {
+.drawer {
+  box-shadow: inset -9rem 0 9rem -9rem #000;
+  border-right: 1px solid #29303d;
+}
+
+.navbar__toolbar,
+.sidebar__toolbar {
   min-height: 4.4rem !important;
   box-shadow: 0 1rem 5rem -0.5rem #000;
   border-bottom: 1px solid #29303d;
+}
+
+.css-10hburv-MuiTypography-root{
+  font-weight: 500 !important;
+}
+
+.css-83ijpv-MuiTypography-root {
+  color: #b2bac2 !important;
+  font-weight: 300 !important;
+}
+
+.css-1lwmhsw-MuiButtonBase-root-MuiListItemButton-root:hover {
+  background-color: rgb(17 26 44) !important;
 }

@@ -1,9 +1,9 @@
-import { Image, LogoutOutlined, MenuOutlined } from "@mui/icons-material";
+import { ExitToApp, MenuOutlined } from "@mui/icons-material";
 import { AppBar, Grid, IconButton, Toolbar, Typography } from "@mui/material";
 
 export const NavBar = ({ drawerWidth = 240 }) => {
 
-    const logoNav = "/public/logo-header.png";
+    const logoNav = "/logo-header.png";
 
   return (
     <AppBar
@@ -28,7 +28,7 @@ export const NavBar = ({ drawerWidth = 240 }) => {
             <img className="logo-nav" src={logoNav} alt="logo" sx={{ height: 40 }} />
           </Typography>
           <IconButton color="error">
-            <LogoutOutlined sx={{ fontSize: 32 }} />
+            <ExitToApp sx={{ fontSize: 30 }} />
           </IconButton>
         </Grid>
       </Toolbar>
