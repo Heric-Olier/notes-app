@@ -1,5 +1,7 @@
-html {
-  background-color: #0e141f;
+body {
+  background-color: #0e141f !important;
+  color: #fff !important;
+  height: 100vh;
 }
 
 .box-shadow {
@@ -7,7 +9,7 @@ html {
 }
 
 .logo-nav {
-  height: 1.8rem;
+  height: 1.7rem;
 }
 
 .drawer {
@@ -22,15 +24,50 @@ html {
   border-bottom: 1px solid #29303d;
 }
 
-.css-10hburv-MuiTypography-root{
+.save__btn {
+  border: 1px solid #55637e !important;
+}
+
+.save__btn:hover {
+  background-color: #55637e !important;
+}
+
+.css-10hburv-MuiTypography-root {
   font-weight: 500 !important;
 }
 
 .css-83ijpv-MuiTypography-root {
-  color: #b2bac2 !important;
-  font-weight: 300 !important;
+  color: #647594 !important;
 }
 
 .css-1lwmhsw-MuiButtonBase-root-MuiListItemButton-root:hover {
   background-color: rgb(17 26 44) !important;
+}
+
+.css-10botns-MuiInputBase-input-MuiFilledInput-input,
+.css-7209ej-MuiInputBase-input-MuiFilledInput-input
+ {
+  color: #fff !important;
+}
+
+.css-1o3gaza-MuiInputBase-root-MuiFilledInput-root:before,
+.css-tfnnjy-MuiInputBase-root-MuiFilledInput-root:before {
+  border-bottom: 1px solid #55637e !important;
+}
+
+.css-1o3gaza-MuiInputBase-root-MuiFilledInput-root:after,
+.css-tfnnjy-MuiInputBase-root-MuiFilledInput-root:after {
+  border-bottom: 2px solid #ffcb36 !important;
+}
+.css-15birh2-MuiFormLabel-root-MuiInputLabel-root {
+  color: #647594 !important;
+  font-weight: 500 !important;
+}
+
+.css-15birh2-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #ffcb36 !important;
+}
+
+.css-v5ldzk-MuiFormLabel-root-MuiInputLabel-root {
+  color: #ffcb36 !important;
 }

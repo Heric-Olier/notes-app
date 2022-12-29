@@ -27,8 +27,8 @@ export const NavBar = ({ drawerWidth = 240 }) => {
           <Typography noWrap component="div">
             <img className="logo-nav" src={logoNav} alt="logo" sx={{ height: 40 }} />
           </Typography>
-          <IconButton color="error">
-            <ExitToApp sx={{ fontSize: 30 }} />
+          <IconButton>
+            <ExitToApp sx={{ fontSize: 30, color:"#ff7c35" }} />
           </IconButton>
         </Grid>
       </Toolbar>

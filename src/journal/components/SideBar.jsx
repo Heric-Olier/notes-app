@@ -14,7 +14,6 @@ import {
 } from "@mui/material";
 
 export const SideBar = ({ drawerWidth = 240 }) => {
-    
   return (
     <Box
       component="nav"
@@ -61,9 +60,15 @@ export const SideBar = ({ drawerWidth = 240 }) => {
                   <TurnedInNot sx={{ color: "#ffcb36" }} />
                 </ListItemIcon>
                 <Grid container>
-                    <ListItemText primary={text} sx={{ color: "primary.contrastText" }} />
-                    <ListItemText secondary={'Elit amet id Lorem magna. Ipsum laborum irure sunt in aliquip mollit do elit occaecat.'} />
-
+                  <ListItemText
+                    primary={text}
+                    sx={{ color: "primary.contrastText" }}
+                  />
+                  <ListItemText
+                    secondary={
+                      "Elit amet id Lorem magna. Ipsum laborum irure sunt in aliquip mollit do elit occaecat."
+                    }
+                  />
                 </Grid>
               </ListItemButton>
             </ListItem>

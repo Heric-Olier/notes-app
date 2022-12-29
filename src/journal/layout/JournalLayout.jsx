@@ -2,7 +2,7 @@ import { Toolbar } from "@mui/material";
 import { Box } from "@mui/system";
 import { NavBar, SideBar } from "../components";
 
-const drawerWidth = 290;
+const drawerWidth = 310;
 
 export const JournalLayout = ({ children }) => {
   return (
@@ -12,8 +12,9 @@ export const JournalLayout = ({ children }) => {
       <SideBar drawerWidth={drawerWidth} />
 
       <Box
+        backgroundColor="#0e141f" 
         component="main"
-        sx={{ backgroundColor: "primary.main", flexGrow: 1, p: 0 }}
+        sx={{ flexGrow: 1, p: 3 }}
       >
         <Toolbar />
 
