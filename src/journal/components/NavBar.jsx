@@ -2,8 +2,7 @@ import { ExitToApp, MenuOutlined } from "@mui/icons-material";
 import { AppBar, Grid, IconButton, Toolbar, Typography } from "@mui/material";
 
 export const NavBar = ({ drawerWidth = 240 }) => {
-
-    const logoNav = "/logo-header.png";
+  const logoNav = "/logo-header.png";
 
   return (
     <AppBar
@@ -23,12 +22,22 @@ export const NavBar = ({ drawerWidth = 240 }) => {
         >
           <MenuOutlined sx={{ fontSize: 32 }} />
         </IconButton>
-        <Grid container direction="row" justifyContent="space-between" alignItems="center">
+        <Grid
+          container
+          direction="row"
+          justifyContent="space-between"
+          alignItems="center"
+        >
           <Typography noWrap component="div">
-            <img className="logo-nav" src={logoNav} alt="logo" sx={{ height: 40 }} />
+            <img
+              className="logo-nav"
+              src={logoNav}
+              alt="logo"
+              sx={{ height: 40 }}
+            />
           </Typography>
           <IconButton>
-            <ExitToApp sx={{ fontSize: 30, color:"#ff7c35" }} />
+            <ExitToApp sx={{ fontSize: 30, color: "#ff7c35" }} />
           </IconButton>
         </Grid>
       </Toolbar>
