@@ -5,6 +5,7 @@ export const NavBar = ({ drawerWidth = 240 }) => {
   const logoNav = "/logo-header.png";
 
   return (
+    
     <AppBar
       className="navbar"
       position="fixed"
